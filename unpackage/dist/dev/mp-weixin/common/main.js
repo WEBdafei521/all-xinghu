@@ -38,11 +38,11 @@ var tui = {
   },
   interfaceUrl: function interfaceUrl() {
     //接口地址
-    return "https://mp.starfox.cn:9004/api/master";
+    return "https://mp.starfox.cn:9008/api/master";
   },
   ainterfaceUrl: function ainterfaceUrl() {
     //接口地址
-    return "https://mp.starfox.cn:9006/admin";
+    return "https://mp.starfox.cn:9004/admin";
   },
   p: function p(url, postData, admin) {var _this = this;
 

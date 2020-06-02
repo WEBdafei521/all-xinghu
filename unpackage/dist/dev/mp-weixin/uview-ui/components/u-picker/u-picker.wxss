@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.tui-btn-mybg.data-v-15953c1f {
+  background: #D7B975 !important;
+  color: #fff;
+}
+.u-datetime-picker.data-v-15953c1f {
+  position: relative;
+  z-index: 999;
+}
+.u-picker-view.data-v-15953c1f {
+  height: 100%;
+  box-sizing: border-box;
+}
+.u-picker-header.data-v-15953c1f {
+  width: 100%;
+  height: 90rpx;
+  padding: 0 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  box-sizing: border-box;
+  font-size: 32rpx;
+  background: #fff;
+  position: relative;
+}
+.u-picker-header.data-v-15953c1f::after {
+  content: '';
+  position: absolute;
+  border-bottom: 1rpx solid #eaeef1;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.u-picker-body.data-v-15953c1f {
+  width: 100%;
+  height: 500rpx;
+  overflow: hidden;
+  background-color: #fff;
+}
+.u-column-item.data-v-15953c1f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 32rpx;
+  color: #303133;
+  padding: 0 8rpx;
+}
+.u-text.data-v-15953c1f {
+  font-size: 24rpx;
+  padding-left: 8rpx;
+}
+.u-btn-picker.data-v-15953c1f {
+  padding: 16rpx;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+}
+.u-opacity.data-v-15953c1f {
+  opacity: 0.5;
+}
+.u-btn-picker--primary.data-v-15953c1f {
+  color: #2979ff;
+}
+.u-btn-picker--tips.data-v-15953c1f {
+  color: #909399;
+}
+

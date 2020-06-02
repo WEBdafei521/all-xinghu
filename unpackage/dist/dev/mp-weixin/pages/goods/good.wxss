@@ -1,0 +1,275 @@
+
+.upload{
+	background-color: rgba(248,248,248,1);
+}
+.l-flex-col{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #FFFFFF;
+}
+.l-flex-row{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #FFFFFF;
+}
+.l-upload{background-color: #FFFFFF;}
+.l-upload-title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-content: center;
+	        align-content: center;
+	background-color: #FFFFFF;
+}
+.l-upload-title-icon{
+	
+	padding:0 18rpx 0 27rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding-top: 6rpx;
+	font-family:PingFang SC;
+	font-weight:bold;
+	color:rgba(233,51,64,1);
+}
+.l-upload-title-text{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height:79rpx;
+	font-size:28rpx;
+	font-family:PingFang SC;
+	font-weight:bold;
+	color:rgba(51,51,51,1);
+}
+.l-upload-main{
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	padding: 27rpx 56rpx;
+}
+.l-upload-photo{
+	width: 44rpx;
+	height: 39rpx;
+}
+.l-upload-image-btn{
+	width:116rpx;
+	height:116rpx;
+	margin-top: 10rpx;
+	border:2rpx solid rgba(177,177,182,.5);
+}
+.l-upload-image{
+	
+	position: relative;
+	width:116rpx;
+	height:116rpx;
+	margin: 10rpx 10rpx 0 0 ;
+}
+.l-upload-image image{
+	width: 123rpx;
+	height: 123rpx;
+}
+.l-upload-photo-text{
+	font-size:22rpx;
+	font-family:PingFang SC;
+	font-weight:400;
+	color:rgba(177,177,182,1);
+}
+.l-upload-image-del image{
+	width: 33rpx;
+	height: 33rpx;
+}
+.l-upload-image-del{
+	position: absolute;
+	top: 6rpx;
+	right: 6rpx;
+	z-index: 1;
+}
+.l-upload-image-text{
+		position: absolute;
+		bottom: 0;
+		z-index: 1;
+		font-size:22rpx;
+		font-family:PingFang SC;
+		font-weight:400;
+		color:#fff;
+		width: 123rpx;
+		text-align: center;
+		height:38rpx;
+		line-height: 38rpx;
+		color: #fff;
+		background:rgba(215,185,117,1);
+		opacity:0.7;
+}
+.l-title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #FFFFFF;
+}
+.l-title-inp{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;-webkit-box-align: center;-webkit-align-items: center;align-items: center;
+	padding: 0 18rpx;
+	height: 79rpx;
+}
+.l-title-inp input{
+	font-size:25rpx;
+	font-family:PingFang SC;
+	font-weight:400;
+	color:rgba(177,177,182,1);
+}
+.l-type-list{
+	background-color: #FFFFFF;
+	padding-right: 27rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-align-content: center;
+	        align-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.l-type-list-item{
+	height: 79rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: justify-content;
+	        flex-direction: justify-content;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size:25rpx;
+	-webkit-align-content: center;
+	        align-content: center;
+	font-family:PingFang SC;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+}
+.l-type-list-item view,.l-type-list-item icon{
+	height: 79rpx;
+	padding-leftpadding-left: 18rpx;
+	line-height: 79rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: justify-content;
+	        flex-direction: justify-content;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.l-send-price{
+	font-size:25rpx;
+	font-family:PingFang SC;
+	font-weight:400;
+	color:rgba(177,177,182,1);
+}
+.l-margin-top-ssm{
+	border-top:2rpx solid rgba(248,248,248,1);
+}
+.l-margin-top-sm{
+	box-sizing: border-box;
+	border-top:9rpx solid rgba(248,248,248,1);
+}
+.l-margin-top-md{
+	box-sizing: border-box;
+	border-top: 9rpx solid rgba(248,248,248,1);
+}
+.l-margin-top-lg{
+	box-sizing: border-box;
+	border-top: 9rpx solid rgba(248,248,248,1);
+}
+.l-product-title{
+	padding:0 58rpx;
+}
+.l-togger image{
+	margin: 0 6rpx;
+	width: 22.64rpx;
+	height: 22.64rpx;
+}
+.confirm-up{
+	width: 696rpx;
+	text-align: center;
+	height: 88.77rpx;
+	line-height: 88.77rpx;
+	position: fixed;
+	bottom: 62.5rpx;
+	left: 27.17rpx;
+	z-index: 1;
+	background:rgba(215,185,117,1);
+	border-radius:14px;
+	font-size:27rpx;
+	font-family:PingFang SC;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+}
+.confirm-bottom{
+	width:268rpx;
+	height:9rpx;
+	background:rgba(0,0,0,1);
+	position: fixed;
+	bottom: 14.5rpx;
+	left: 241rpx;
+	border-radius:5rpx;
+}
+.zanwei{
+	/* width: 143r */
+	height: 143rpx;
+	background-color:  rgba(248,248,248,1);
+}
+

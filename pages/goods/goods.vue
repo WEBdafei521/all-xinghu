@@ -304,6 +304,8 @@
 				var basevalue2id = this.$u.random(0, 9999);
 				for(var k in this.allSpecValue){
 					var e = this.allSpecValue[k]
+					console.log(e)
+					console.log(this.allSpecValue)
 					if(e.length == 3){
 						var t = {
 						  "code": "100",

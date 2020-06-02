@@ -85,6 +85,14 @@
             "path" : "pages/order/deliever/courier",
             "style" : {"navigationBarTitleText": "选择快递公司"}
         }
+				,{
+            "path" : "pages/goods/good",
+            "style" : {"navigationBarTitleText": "发布商品"}
+        },
+				{
+				    "path" : "pages/goods/updata",
+				    "style" : {"navigationBarTitleText": "商品规格"}
+				}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

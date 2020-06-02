@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/goods/good",
     "pages/index/index",
     "pages/center/index",
     "pages/login/login",
@@ -12,7 +13,8 @@
     "pages/order/index",
     "pages/order/after_sales/after_sales",
     "pages/order/deliever/deliever",
-    "pages/order/deliever/courier"
+    "pages/order/deliever/courier",
+    "pages/goods/updata"
   ],
   "subPackages": [],
   "window": {
@@ -45,5 +47,5 @@
     "enable": false
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap44.json"
+  "sitemapLocation": "sitemap73.json"
 }

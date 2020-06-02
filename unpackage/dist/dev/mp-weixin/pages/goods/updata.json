@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商品规格",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-toast": "/uview-ui/components/u-toast/u-toast"
+  }
+}
