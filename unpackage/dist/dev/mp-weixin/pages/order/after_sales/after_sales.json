@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "售后申请",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.tui-btn-mybg.data-v-0fc6c9bf {
+  background: #D7B975 !important;
+  color: #fff;
+}
+.u-toast.data-v-0fc6c9bf {
+  position: fixed;
+  z-index: -1;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  text-align: center;
+  color: #fff;
+  border-radius: 8rpx;
+  background: #585858;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 28rpx;
+  opacity: 0;
+}
+.u-toast.u-show.data-v-0fc6c9bf {
+  opacity: 1;
+  z-index: 9999999;
+}
+.u-text.data-v-0fc6c9bf {
+  word-break: keep-all;
+  white-space: nowrap;
+  line-height: normal;
+}
+.u-icon.data-v-0fc6c9bf {
+  margin-right: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  line-height: normal;
+}
+.u-position-center.data-v-0fc6c9bf {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+.u-position-top.data-v-0fc6c9bf {
+  left: 50%;
+  top: 20%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+.u-position-bottom.data-v-0fc6c9bf {
+  left: 50%;
+  bottom: 20%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+.u-type-primary.data-v-0fc6c9bf {
+  color: #2979ff;
+  background-color: #ecf5ff;
+  border: 1px solid #d7eafe;
+}
+.u-type-success.data-v-0fc6c9bf {
+  color: #19be6b;
+  background-color: #dbf1e1;
+  border: 1px solid #BEF5C8;
+}
+.u-type-error.data-v-0fc6c9bf {
+  color: #fa3534;
+  background-color: #fef0f0;
+  border: 1px solid #fde2e2;
+}
+.u-type-warning.data-v-0fc6c9bf {
+  color: #ff9900;
+  background-color: #fdf6ec;
+  border: 1px solid #faecd8;
+}
+.u-type-info.data-v-0fc6c9bf {
+  color: #909399;
+  background-color: #f4f4f5;
+  border: 1px solid #ebeef5;
+}
+.u-type-default.data-v-0fc6c9bf {
+  color: #fff;
+  background-color: #585858;
+}
+

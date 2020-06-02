@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "上传商品",
+  "usingComponents": {
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-field": "/uview-ui/components/u-field/u-field",
+    "u-top-tips": "/uview-ui/components/u-top-tips/u-top-tips",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-table": "/uview-ui/components/u-table/u-table",
+    "u-tr": "/uview-ui/components/u-tr/u-tr",
+    "u-th": "/uview-ui/components/u-th/u-th",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

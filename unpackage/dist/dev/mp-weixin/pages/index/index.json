@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "首页",
+  "backgroundColor": "#fff",
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "index-u-waterfall-left": "/pages/index/index-u-waterfall-left",
+    "index-u-waterfall-right": "/pages/index/index-u-waterfall-right"
+  }
+}

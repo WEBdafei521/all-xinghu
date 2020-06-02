@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "tui-icon": "/components/icon/icon",
+    "tui-button": "/components/extend/button/button",
+    "tui-list-cell": "/components/list-cell/list-cell",
+    "tui-divider": "/components/divider/divider",
+    "tui-loadmore": "/components/loadmore/loadmore"
+  }
+}

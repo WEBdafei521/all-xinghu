@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.tui-btn-mybg.data-v-e3806ec2 {
+  background: #D7B975 !important;
+  color: #fff;
+}
+view.data-v-e3806ec2 {
+  box-sizing: border-box;
+}
+.u-tips.data-v-e3806ec2 {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding: 20rpx 30rpx;
+  color: #FFFFFF;
+  font-size: 28rpx;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+.u-tip-show.data-v-e3806ec2 {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+  z-index: 99;
+}
+.u-primary.data-v-e3806ec2 {
+  background: #2979ff;
+}
+.u-success.data-v-e3806ec2 {
+  background: #19be6b;
+}
+.u-warning.data-v-e3806ec2 {
+  background: #ff9900;
+}
+.u-error.data-v-e3806ec2 {
+  background: #fa3534;
+}
+.u-info.data-v-e3806ec2 {
+  background: #909399;
+}
+

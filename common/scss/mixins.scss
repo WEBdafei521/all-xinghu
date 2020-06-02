@@ -1,0 +1,94 @@
+/* 尺寸大小 */
+$font_lg: 27rpx;
+$font_base: 26rpx;
+$font_sm: 20rpx;
+
+
+/* 颜色 */
+$color_font: #333;
+$color_active: #EAA34C;
+$color_gray: #F8F8F8;
+
+
+
+/* 设置宽高 */
+@mixin setBox($width: 100%, $height: 100%) {
+	width: $width;
+	height: $height;
+}
+
+/*  flex布局 */
+@mixin flexBox($just: center, $align: center) {
+	display: flex;
+	justify-content: $just;
+	align-items: $align;
+}
+
+
+/* 下 1像素边框 */
+@mixin border_bottom ($color: #eee) {
+	position: relative;
+	width: 100%;
+	&::before {
+		content: '';
+		width: 100%;
+		height: 1px;
+		border-bottom: 1px solid $color;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		transform: scaleY(.5);
+	}
+}
+/* 上像素边框 */
+@mixin border_top ($color: #eee) {
+	position: relative;
+	width: 100%;
+	&::before {
+		content: '';
+		width: 100%;
+		height: 1px;
+		border-top: 1px solid $color;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: scaleY(.5);
+	}
+}
+/* 右 1像素边框 */
+@mixin border_right ($color: #eee) {
+	position: relative;
+	width: 100%;
+	&::before {
+		content: '';
+		width: 1px;
+		height: 100%;
+		border-right: 1px solid $color;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		transform: scaleX(.5);
+	}
+}
+
+/* 溢出隐藏... */
+@mixin textOverHidden ($clamp: 1) {
+	overflow:hidden;
+	text-overflow: ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: $clamp
+}
+
+/* 重置按钮样式 */
+@mixin resetBtn ($bg: #fff) {
+	width: 100%;
+	@include flexBox();
+	border: 0;
+	font-weight: normal;
+	background-color: $bg;
+	&::before,
+	&::after {
+		border: 0;
+	}
+}

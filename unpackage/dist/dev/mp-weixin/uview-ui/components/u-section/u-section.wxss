@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.tui-btn-mybg.data-v-3f14d7bb {
+  background: #D7B975 !important;
+  color: #fff;
+}
+.u-section.data-v-3f14d7bb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+}
+.u-section-title.data-v-3f14d7bb {
+  position: relative;
+  font-size: 28rpx;
+  padding-left: 10px;
+  line-height: 1;
+}
+.u-section-title.data-v-3f14d7bb:after {
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  content: '';
+  left: 0;
+  border-radius: 10px;
+  background-color: currentColor;
+}
+.u-right-info.data-v-3f14d7bb {
+  color: #909399;
+  font-size: 26rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.u-icon-arrow.data-v-3f14d7bb {
+  margin-left: 6rpx;
+}
+

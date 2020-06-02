@@ -1,0 +1,62 @@
+@import './mixins.scss';
+view, text {
+	box-sizing: border-box;
+}
+page {
+	font-family: PingFang-SC-Regular;
+}
+
+image {
+	display: inline-block;
+	// 解决图片加载时可能会瞬间变形的问题
+	will-change: transform;
+}
+view,
+text {
+	box-sizing: border-box;
+	flex-direction: row;
+}
+
+
+
+/* 样式 */
+.carList-vip {
+	position: absolute;
+	top: -66rpx;
+	padding: 0 20rpx;
+	z-index: -1;
+	height: 133rpx;
+	width: 100%;
+	image {
+		@include setBox(100%, 100%);
+	}
+}
+
+
+
+
+
+.color-price {
+	color: #D7B975;
+	font-weight: bold;
+}
+
+
+
+/* uview popup圆角 */
+.u-drawer-content {
+	border-radius: 16rpx 16rpx 0 0;
+	background-color: transparent;
+}
+.u-drawer {
+	.u-drawer-bottom {
+		background-color: transparent !important;
+	}
+}
+
+/* start--去除webkit的默认样式--start */
+.u-fix-ios-appearance {
+	-webkit-appearance:none;
+}
+/* 文本溢出隐藏 */
+.uni-ellipsis {overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}

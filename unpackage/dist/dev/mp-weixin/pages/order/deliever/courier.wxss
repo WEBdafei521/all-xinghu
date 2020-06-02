@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.tui-btn-mybg.data-v-0fe4ccd5 {
+  background: #D7B975 !important;
+  color: #fff;
+}
+/* 尺寸大小 */
+/* 颜色 */
+/* 设置宽高 */
+/*  flex布局 */
+/* 下 1像素边框 */
+/* 上像素边框 */
+/* 右 1像素边框 */
+/* 溢出隐藏... */
+/* 重置按钮样式 */
+.courer-icon.data-v-0fe4ccd5 {
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+}
+.coure-check.data-v-0fe4ccd5 {
+  width: 31rpx;
+  height: 27rpx;
+}
+.courier-container.data-v-0fe4ccd5 {
+  padding: 0 0 220rpx;
+  background: #f8f8f8;
+}
+.courier-container .scroll-view_H.data-v-0fe4ccd5 {
+  width: 100%;
+  height: 100%;
+}
+.courier-container .courer-li.data-v-0fe4ccd5 {
+  width: 100%;
+  padding: 20rpx 50rpx 20rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+  background: #fff;
+}
+.courier-container .courer-li.data-v-0fe4ccd5::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #eee;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+}
+.courier-container .courer-li.data-v-0fe4ccd5::last-child::before {
+  border: 0;
+}
+.courier-container .courer-li-title.data-v-0fe4ccd5 {
+  font-size: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.courier-container .courer-out.data-v-0fe4ccd5 {
+  background: #fff;
+  margin-top: 20rpx;
+  padding: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+}
+.courier-container .courer-out .out-input.data-v-0fe4ccd5 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 30rpx;
+  padding: 0 10rpx;
+  font-size: 28rpx;
+}
+.courier-container .courer-btn.data-v-0fe4ccd5 {
+  position: fixed;
+  width: 100%;
+  height: 200rpx;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  padding: 0 30rpx;
+}
+.courier-container .courer-btn .btn-button.data-v-0fe4ccd5 {
+  margin-top: 20rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border: 0;
+  font-weight: normal;
+  background-color: #fff;
+  height: 98rpx;
+  background: #D7B975;
+  border-radius: 49rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+.courier-container .courer-btn .btn-button.data-v-0fe4ccd5::before, .courier-container .courer-btn .btn-button.data-v-0fe4ccd5::after {
+  border: 0;
+}
+

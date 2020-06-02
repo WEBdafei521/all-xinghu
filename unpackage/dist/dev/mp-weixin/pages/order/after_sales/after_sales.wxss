@@ -1,0 +1,291 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.tui-btn-mybg.data-v-58367038 {
+  background: #D7B975 !important;
+  color: #fff;
+}
+/* 尺寸大小 */
+/* 颜色 */
+/* 设置宽高 */
+/*  flex布局 */
+/* 下 1像素边框 */
+/* 上像素边框 */
+/* 右 1像素边框 */
+/* 溢出隐藏... */
+/* 重置按钮样式 */
+.after-container.data-v-58367038 {
+  background: #f8f8f8;
+  padding: 10rpx 0 100rpx;
+}
+.after-container .after-goods.data-v-58367038 {
+  background: #fff;
+  padding: 30rpx;
+  margin-bottom: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.after-container .after-goods .goods-img.data-v-58367038 {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 20rpx;
+}
+.after-container .after-goods .goods-info.data-v-58367038 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding: 0 20rpx;
+  height: 160rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.after-container .after-goods .goods-info .info-title.data-v-58367038 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+.after-container .after-goods .goods-info .info-rule.data-v-58367038 {
+  font-size: 24rpx;
+  color: #b1b1b1;
+}
+.after-container .after-goods .goods-info .info-rule .rule-l.data-v-58367038 {
+  margin-left: 20rpx;
+}
+.after-container .after-sales.data-v-58367038 {
+  background: #fff;
+  margin: 10rpx 0;
+  padding: 0 30rpx;
+  font-size: 30rpx;
+}
+.after-container .after-sales .sales-title.data-v-58367038 {
+  padding: 20rpx 0 10rpx;
+}
+.after-container .after-sales .sales-input .u-input.data-v-58367038 {
+  font-size: 24rpx;
+}
+.after-container .after-sales .sales-tips.data-v-58367038 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 10rpx 0;
+}
+.after-container .after-sales .sales-tips .tips-input.data-v-58367038 {
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+.after-container .after-sales .price-text.data-v-58367038 {
+  color: #E93340;
+}
+.after-container .after-photo.data-v-58367038 {
+  background: #fff;
+  padding: 0 30rpx 20rpx;
+  /* 上传图片 */
+}
+.after-container .after-photo .photo-title.data-v-58367038 {
+  padding: 20rpx 0;
+  font-szie: 30rpx;
+}
+.after-container .after-photo .photo-list.data-v-58367038 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.after-container .after-photo .photo-list .photo-tips.data-v-58367038 {
+  color: #B1B1B6;
+  font-size: 24rpx;
+  margin-left: 20rpx;
+  padding-bottom: 10rpx;
+}
+.after-container .after-photo .slot-btn.data-v-58367038 {
+  width: 120rpx;
+  height: 120rpx;
+  border: 1px solid #B1B1B6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  font-size: 20rpx;
+  color: #B1B1B6;
+  margin-left: 20rpx;
+}
+.after-container .after-photo.data-v-58367038  .u-delete-icon {
+  width: 36rpx;
+  height: 36rpx;
+}
+.after-container .after-btn.data-v-58367038 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 140rpx;
+  background: #f8f8f8;
+  padding: 0 30rpx;
+}
+.after-container .after-btn .btn-button.data-v-58367038 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border: 0;
+  font-weight: normal;
+  background-color: #fff;
+  background: #D7B975;
+  color: #fff;
+  font-size: 30rpx;
+}
+.after-container .after-btn .btn-button.data-v-58367038::before, .after-container .after-btn .btn-button.data-v-58367038::after {
+  border: 0;
+}
+.data-v-58367038 .u-list-item .u-preview-image {
+  width: 100%;
+  height: 100%;
+}
+/* 弹窗样式 */
+.pop-goods-list.data-v-58367038 {
+  position: relative;
+  background: #fff;
+  font-size: 30rpx;
+  padding: 0 30rpx 240rpx;
+}
+.pop-goods-list .pop-title.data-v-58367038 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 20rpx 0;
+}
+.pop-goods-list .pop-list.data-v-58367038 {
+  padding: 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+}
+.pop-goods-list .pop-list.data-v-58367038::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #eee;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+}
+.pop-goods-list .pop-list.data-v-58367038:last-child::before {
+  border: 0;
+}
+.pop-goods-list .li-radio.data-v-58367038 {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+.pop-goods-list .pop-btn.data-v-58367038 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0 30rpx 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.pop-goods-list .pop-btn .btn-class.data-v-58367038 {
+  height: 98rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border: 0;
+  font-weight: normal;
+  background-color: #fff;
+  background: #D7B975;
+  color: #fff;
+  font-size: 30rpx;
+}
+.pop-goods-list .pop-btn .btn-class.data-v-58367038::before, .pop-goods-list .pop-btn .btn-class.data-v-58367038::after {
+  border: 0;
+}
+
